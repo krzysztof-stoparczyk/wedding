@@ -283,6 +283,10 @@ a:hover, a:active, a:focus {
 	
 }
 
+#kontakt .contactimage img{
+	width:100%;
+}
+
 @media screen and (max-width: 991px) {
 	.contactinfo{
 		text-align:center;
