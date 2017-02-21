@@ -87,7 +87,7 @@ a:hover, a:active, a:focus {
 }
 
 .header {
-	background-image:url(../img/banner1-min.jpg) no-repeat center center fixed; 
+	background-image:url(../img/banner1-min.jpg); 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
