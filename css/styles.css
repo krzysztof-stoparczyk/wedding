@@ -87,7 +87,7 @@ a:hover, a:active, a:focus {
 }
 
 .header {
-	background-image:url(../img/banner1-min.jpg); 
+	background-image:url(../img/banner-sl-min.png); 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -305,7 +305,7 @@ a:hover, a:active, a:focus {
 	}
 	
 	.header {
-		background-image:url(../img/banner1-crop-min.png);
+		background-image:url(../img/banner-sl-small.png);
 		height:400px;
 	}
 
