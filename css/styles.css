@@ -370,7 +370,7 @@ a:hover, a:active, a:focus {
   width: 200px;
   overflow: inherit;
   margin: 0 auto;
-  margin-top: 350px;
+  margin-top: 200px;
   opacity:0.1;
   list-style: none;
   -webkit-animation: animateHeart 2.5s infinite;
