@@ -63,7 +63,23 @@
 			</div>
 			<div class="row people rowclearmargin">
 				<div class="col-md-3 col-md-offset-2 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 person">
-					<div class="imgdiv monika"></div>
+					<div class="imgdiv monika">
+					<div>
+					     <img src="//img/gallery/cat1.jpg">
+					</div>
+					<div>
+					     <img src="//img/gallery/cat2.png">
+					</div>
+					<div>
+					     <img src="//img/gallery/cat3.jpg">
+					</div>
+					<div>
+					     <img src="//img/gallery/cat4.jpg">
+					</div>
+					<div>
+					     <img src="//img/gallery/cat5.jpg">
+					</div>
+					</div>
 					<p class="name">Monika Słubik</p>
 					<!--<p class="description">OPIS</p>-->
 				</div>
@@ -72,7 +88,22 @@
 					</div>
 				</div>
 				<div class="col-md-3 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 person">
-					<div class="imgdiv lukasz"></div>
+					<div class="imgdiv lukasz">
+					<div>
+					     <img src="//img/gallery/cat5.jpg">
+					</div>
+					<div>
+					     <img src="//img/gallery/cat4.jpg">
+					</div>
+					<div>
+					     <img src="//img/gallery/cat3.jpg">
+					</div>
+					<div>
+					     <img src="//img/gallery/cat2.png">
+					</div>
+					<div>
+					     <img src="//img/gallery/cat1.jpg">
+					</div></div>
 					<!-- <div class="imgdiv"><image src="img/Frozen.jpg"/></div> -->
 					<p class="name">Łukasz Jóźwiak</p>
 					<!--<p class="description">OPIS</p>-->
@@ -269,6 +300,30 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
     event.preventDefault();
     $(this).ekkoLightbox();
 });
+
+$(".imgdiv.monika > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('.imgdiv.monika > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('.imgdiv.monika');
+},  3000);
+	
+	
+$(".imgdiv.lukasz > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('.imgdiv.lukasz > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('.imgdiv.lukasz');
+},  3000);
+	
 </script>
 	</body>
 </html>
