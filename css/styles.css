@@ -147,6 +147,11 @@ a:hover, a:active, a:focus {
 	overflow:hidden;
 } 
 
+#mlodzi .imgdiv img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 #mlodzi .imgdiv.krzych{
 	background:url(../img/Stewie.jpg) no-repeat center center ;  
 	-webkit-background-size: cover;
